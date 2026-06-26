@@ -1,6 +1,6 @@
 # Kamoro MyTeams (Flutter Web)
 
-A Flutter Web employee and product management system built using **Provider**, **Navigator 2.0**, **GetIt**, and **Easy Localization** following a modular, feature-based architecture.
+A Flutter Web employee and product management system built using **Provider**, **Navigator 2.0**, **GetIt**, and **Easy Localization**, following a modular feature-based architecture inspired by production applications.
 
 ---
 
@@ -11,17 +11,16 @@ A Flutter Web employee and product management system built using **Provider**, *
 - Built custom navigation using **Navigator 2.0**
 - Used **GetIt** for dependency injection
 - Added multilingual support using **Easy Localization**
-- Applied a modular feature-based architecture for maintainability and scalability
+- Applied a modular feature-based architecture for scalability and maintainability
+- Contributed to backend API development using **ASP.NET Core** and layered architecture
 
 ---
 
 ## Overview
 
-Kamoro MyTeams is a Flutter Web application designed for managing employees and products through a clean and modular interface.
+Kamoro MyTeams is a Flutter Web application designed for managing employees and products through a clean, modular, and maintainable architecture.
 
-The application separates business logic from presentation using Provider and dependency injection while supporting custom routing, localization, and reusable UI components.
-
-This project demonstrates how a production-style Flutter application can be structured for scalability and maintainability.
+The application separates presentation, state management, routing, and business logic while supporting localization and dependency injection. The project follows software engineering best practices commonly used in production environments.
 
 ---
 
@@ -82,7 +81,7 @@ The application follows a modular architecture.
 - **Routing** manages navigation using Navigator 2.0.
 - **Models** define application data.
 - **UI** contains reusable feature-specific screens.
-- **Initialization** configures dependency injection and application services.
+- **Initialization** configures dependency injection and shared application services.
 
 ---
 
@@ -90,25 +89,69 @@ The application follows a modular architecture.
 
 ### Home
 
-![alt text](Image/image.png)
+![Home](Image/image.png)
+
+---
 
 ### Employee
 
-![alt text](Image/image-6.png)
-![alt text](Image/image-7.png)
-![alt text](Image/image-3.png)
+![Employee](Image/image-6.png)
+
+![Employee Details](Image/image-7.png)
+
+![Employee Edit](Image/image-3.png)
+
+---
 
 ### Product
 
-![alt text](Image/image-8.png)
-![alt text](Image/image-4.png)
-![alt text](Image/image-5.png)
+![Product](Image/image-8.png)
+
+![Product Search](Image/image-4.png)
+
+![Product Create](Image/image-5.png)
+
+---
 
 ### Settings
 
-![alt text](Image/image-9.png)
-![alt text](Image/image-10.png)
-![alt text](Image/image-11.png)
+![Settings](Image/image-9.png)
+
+![Language Selection](Image/image-10.png)
+
+![Localization](Image/image-11.png)
+
+---
+
+## Backend Architecture (Contribution)
+
+In addition to the Flutter frontend, I contributed to the backend implementation using **ASP.NET Core**.
+
+The backend follows a layered architecture consisting of:
+
+- API Functions
+- Services
+- Repositories
+- Models
+- Interfaces
+- Dependency Injection
+- Custom Exception Handling
+
+### Project Structure
+
+![Backend Structure](Image2/image-8.png)
+
+### Product API Endpoint
+
+![Product API](Image2/image-7.png)
+
+### Product Service Layer
+
+![Product Service](Image2/image-5.png)
+
+### Product Repository
+
+![Repository Architecture](Image2/image-6.png)
 
 ---
 
@@ -137,11 +180,11 @@ flutter run
 
 ## Project Status
 
-This repository contains the Flutter Web frontend.
+This repository contains the Flutter Web frontend developed during my internship.
 
-The user interface, routing, localization, and application architecture are implemented.
+The project showcases the application's architecture, user interface, routing, localization, state management, and overall software design.
 
-The backend API and database are maintained in a separate repository.
+Some functionality depends on backend services and a database that are maintained separately and are therefore not included in this repository. As a result, features requiring live backend data may not be fully functional.
 
 ---
 
@@ -165,11 +208,15 @@ Supports multiple languages using Easy Localization.
 
 ### Modular Architecture
 
-Organises the project into independent feature modules, improving maintainability and scalability.
+Organises the application into independent feature modules for improved maintainability and scalability.
 
 ### Responsive UI
 
 Designed to provide a consistent experience across different screen sizes.
+
+### Backend Design
+
+Contributed to an ASP.NET Core backend implementing a layered architecture with API controllers, service layer, repository pattern, dependency injection, and custom exception handling.
 
 ---
 
@@ -184,7 +231,9 @@ This project demonstrates the ability to:
 - manage application routing
 - apply dependency injection
 - support internationalization and localization
-- organise large Flutter projects using feature-based architecture
+- contribute to backend API development
+- work with layered software architecture
+- organise large applications using feature-based design
 
 ---
 
