@@ -90,25 +90,25 @@ The application follows a modular architecture.
 
 ### Home
 
-![alt text](image.png)
+![alt text](Image/image.png)
 
 ### Employee
 
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-3.png)
+![alt text](Image/image-6.png)
+![alt text](Image/image-7.png)
+![alt text](Image/image-3.png)
 
 ### Product
 
-![alt text](image-8.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](Image/image-8.png)
+![alt text](Image/image-4.png)
+![alt text](Image/image-5.png)
 
 ### Settings
 
-![alt text](image-9.png)
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](Image/image-9.png)
+![alt text](Image/image-10.png)
+![alt text](Image/image-11.png)
 
 ---
 
