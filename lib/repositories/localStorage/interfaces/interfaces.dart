@@ -1,0 +1,1 @@
+export 'app_catalog_local_storage_repository.dart';
